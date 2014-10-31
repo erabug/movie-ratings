@@ -6,10 +6,26 @@ body {
     padding: 2em;
 }
 
-h1 {
-    font-family: Rock Salt, serif;
-    margin: 20px;
+.header {
     text-align: center;
+}
+
+h1 {
+    font-family: "Walter Turncoat", serif;
+    display: inline-block;
+    font-size: 50;
+}
+
+img {
+    height: 70px;
+    top: 15px;
+    left: 10px;
+    position: relative;
+}
+
+#logo {
+    margin-top: -40px;
+    margin-bottom: -20px;
 }
 
 form > div {
@@ -29,4 +45,20 @@ input[type=text],
 select {
     position: absolute;
     left: 28em;
+}
+
+button {
+    background-color: #A076B7;
+    color: white;
+    border-radius: 10px;
+    border: solid 1px #333333;
+    position: relative;
+    font-size: 16;
+    padding: 3px;
+    width: 80px;
+}
+
+button:hover {  
+    background-color: #FAA209;
+    color: black;
 }
