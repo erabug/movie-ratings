@@ -147,7 +147,7 @@ $('#get-users').click(function(evt) {
 
                         });
 
-                        $('#list-heading').html('The average rating for this user: '+average(ratings).toString());
+                        $('#list-heading').html('The average rating for this user is '+average(ratings).toString());
 
                 displayJudging();
 

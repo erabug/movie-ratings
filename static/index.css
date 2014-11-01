@@ -28,11 +28,12 @@ button {
 }
 
 .nav {
-    width: 100px;
+    width: 110px;
     margin-bottom: 20px;
 }
 
 button:hover {  
+    cursor: pointer;
     background-color: #FAA209;
     color: black;
 }
@@ -41,9 +42,16 @@ button:hover {
     text-align: left;
 }
 
+.title:hover {
+    cursor: pointer;
+    color: #FAA209;
+}
+
+
 td {
     min-width: 50px;
     max-width: 300px;
+    height: 40px;
     text-align: center;
 }
 
