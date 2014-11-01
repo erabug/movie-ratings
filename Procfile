@@ -1,1 +1,1 @@
-web: python judgement.py
+web: gunicorn judgement:app
